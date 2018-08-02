@@ -13,6 +13,18 @@ git clone https://github.com/tydic-kanper/pooled-ftp-spring-boot-starter.git
 mvn install
 ```
 
+在需要使用FTP连接池的地方加入Maven依赖
+
+``` java
+
+<dependency>
+    <groupId>com.kanper</groupId>
+    <artifactId>pooled-ftp-spring-boot-starter</artifactId>
+    <version>1.0</version>
+</dependency>
+
+```
+
 将项目的jar包安装到本地maven仓库
 
 在项目中只需要在Springboot的yml文件中引入相应的配置，即可完成自动注入

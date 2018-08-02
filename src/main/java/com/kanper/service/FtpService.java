@@ -23,6 +23,10 @@ public class FtpService {
         this.pool = pool;
     }
 
+    public void sayHello(){
+        System.out.println("hello");
+    }
+
     /**
      * 下载文件
      */
